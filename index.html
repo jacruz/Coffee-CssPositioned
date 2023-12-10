@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>El café</title>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    
+    <link href="styles/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="banner-bkg-1"></div>
+    <div class="banner-container-txt">
+        <h1 class="banner-title-1">CAFÉ</h1>
+        <h1 class="banner-title-2">HTML y CSS puro, enfoque float</h1>
+    </div>
+
+    <header class="header">
+        
+        <!-- Logo -->
+        <a href="*" class="logo">CAFÉ</a>
+
+        <!-- Hamburguer + checkbox hack -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#section-art">Artículos</a></li>
+                <li><a href="#section-column-double-full">Acerca de</a></li>
+                <li><a class="btn-border" href="#section-subscribe">Suscríbete</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <!-- Articles -->
+        <section class="section-art" id="section-art">
+            <h2 class="title-2">Últimos artículos</h2>    
+            
+            <div class="art-container">
+                <div class="art-column">
+                    <article class="card">
+                        <img src="assets/images/art-coffee-1.jpg" class="column-double-img" alt="Avatar" >
+                        <div class="card-body">
+                            <h4 class="title-4"><b>Infusión</b></h4 class="title-4"> 
+                            <p>Se conoce como café a la bebida que se elabora mediante la infusión de esta semilla tostada y molida. Se trata de una bebida socializadora</p> 
+                        </div>
+                    </article>
+                </div>
+                <div class="art-column">
+                    <article class="card">
+                        <img src="assets/images/art-coffee-2.jpg" class="column-double-img" alt="Avatar" >
+                        <div class="card-body">
+                            <h4 class="title-4"><b>Preparación</b></h4 class="title-4"> 
+                            <p>Podemos catalogar el café en base a su forma de preparación. Veamos algunas de las clases más conocidas o consumidas en todo el mundo</p> 
+                        </div>
+                    </article>
+                </div>
+                <div class="art-column">
+                    <article class="card">
+                        <img src="assets/images/art-coffee-3.jpg" class="column-double-img" alt="Avatar">
+                        <div class="card-body">
+                            <h4 class="title-4"><b>Otros</b></h4 class="title-4"> 
+                            <p>Establecimiento donde se comercializa y se ingiere esta bebida. En algunos países se le conoce a una tonalidad del color marrón.</p> 
+                        </div>
+                    </article>
+                </div>
+            </div>
+            
+
+        </section>
+        
+        <!-- Double column full -->
+        <section class="section-column-double-full" id="section-column-double-full">
+            <div class="column-double">
+                <img class="column-double-img" src="assets/images/coffee3.jpg"/>
+            </div>
+            <div class="column-double p20">
+                <h2 class="title-2">Acerca de</h2>
+                <div class="column-double-txt">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, recusandae. Laboriosam in itaque, dicta perferendis, temporibus minima sed eveniet mollitia unde consequuntur nulla quam aperiam culpa voluptatem nesciunt quos repellendus.</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <!-- Suscríbete -->
+        <section class="section-subscribe" id="section-subscribe">
+            <div class="center">
+                <h2 class="title-2">Suscríbete</h2>
+                <p>No te pierdas nuestro contenido</p>
+                <input type="text" placeholder="E-mail" class="subscribe-input"/>
+                <a class="btn-border btn-subscribe" href="#">Registrar</a>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="footer">
+        <section>
+            <div class="footer-links">
+                <ul class="footer-menu">
+                    <li><a href="#section-art">Artículos</a></li>
+                    <li><a href="#section-column-double-full">Acerca de</a></li>
+                    <li><a href="#section-subscribe">Suscríbete</a></li>
+                </ul>
+            </div>
+            <div class="footer-icons">
+                <a href="#facebook" class="facebook">   
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#twitter" class="twitter">   
+                    <i class="fa fa-twitter"></i>   
+                </a>
+                <a href="#linkedin" class="linkedin">   
+                    <i class="fa fa-linkedin"></i>   
+                </a>
+                    <a href="#instagram" class="instagram">   
+                <i class="fa fa-instagram"></i>   
+                </a>
+                <a href="#youtube" class="youtube">   
+                    <i class="fa fa-youtube-play"></i>   
+                </a> 
+            </div>
+            
+        </section>
+        <section class="section-powered-by">
+            <p>Powered by <a href="../../personalCV/index.html">Jonnathan Cruz</a></p>
+            <div class="txt-small">
+                <p>Inspired by <a href="https://images.creativemarket.com/0.1.0/ps/7246160/580/1191/m2/fpnw/wm0/all2-min-.png?1572932737&s=1153d542e51c918a71c54c479183ab33">Lombok template</a></p>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
