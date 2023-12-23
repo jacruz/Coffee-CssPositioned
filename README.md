@@ -30,23 +30,11 @@ Explora los estilos css en herramientas para desarrollador del navegador para vi
 
 <img align="center" src="assets/images/screenshots/screenshot_4.png" alt="drawing" width="500"/>
 
-## Créditos
-
-### Tutoriales:
-
-- https://www.w3schools.com/css/
-
-### Inspiración principal:
-https://images.creativemarket.com/0.1.0/ps/4835945/580/1056/m1/fpnw/wm0/lombok-responsive-website-template-by-delightful-artifacts-.png?1&s=cf4666450320a0b0ae08c358b03e4d55
-
 ### Assets:
 
 - Imagen de <a href="https://pixabay.com/es/users/inanimalis-4325847/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2246468">Cris</a> en <a href="https://pixabay.com/es//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2246468">Pixabay</a>
 
 - Imagen de <a href="https://www.pexels.com/@brixton/">Brix Saranza</a> en <a href="https://www.pexels.com/photo/energizing-cold-coffee-in-plastic-bottle-near-beans-4621672/">Pexels</a> 
-
-
-
 
 - Imágenes generadas por IA en <a href="https://app.leonardo.ai/">Leonardo.ai</a>
 
@@ -55,5 +43,14 @@ https://images.creativemarket.com/0.1.0/ps/4835945/580/1056/m1/fpnw/wm0/lombok-r
 
 Este código se distribuye bajo licencia GPLv3.
 
+
+## Créditos
+
+### Tutoriales:
+
+- https://www.w3schools.com/css/
+
+### Inspiración principal:
+https://images.creativemarket.com/0.1.0/ps/4835945/580/1056/m1/fpnw/wm0/lombok-responsive-website-template-by-delightful-artifacts-.png?1&s=cf4666450320a0b0ae08c358b03e4d55
 
 
